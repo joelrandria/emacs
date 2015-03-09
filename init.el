@@ -25,3 +25,6 @@
 
 ;; GLSL mode
 (load "glsl-mode")
+
+;; OpenCL
+(setq auto-mode-alist (cons '("\.cl$" . c-mode) auto-mode-alist))
